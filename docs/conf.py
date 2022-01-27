@@ -17,9 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_copybutton',
-    'IPython.sphinxext.ipython_directive',
-    'sphinx_thebe'
+    'sphinx_copybutton'
 ]
 
 thebe_config = {
