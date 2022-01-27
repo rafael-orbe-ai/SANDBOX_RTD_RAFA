@@ -1,4 +1,4 @@
-ESTRUTURA DE REPETIÇÃO.
+ESTRUTURA DE REPETIÇÃO
 ********************
 
 01.Estrutura de repetição ``while``
