@@ -1,4 +1,4 @@
-INTRODUÇÃO.
+INTRODUÇÃO
 ********************
 
 01.”Olá, mundo!”
