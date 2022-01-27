@@ -1,4 +1,4 @@
-FUNÇÕES.
+FUNÇÕES
 ********************
 
 Uma função é composta basicamente por duas partes:
