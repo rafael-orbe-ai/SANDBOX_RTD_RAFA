@@ -18,3 +18,12 @@ Conteúdos
    python_estrutura_repeticao
    python_funcao
    python_ficha_resumo
+
+
+.. toctree::
+   :caption: PANDAS
+   :maxdepth: 1
+   
+   pandas_introducao
+   pandas_compreensao_dados
+   pandas_tratamentos_dados
