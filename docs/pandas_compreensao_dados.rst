@@ -69,9 +69,9 @@ PRIMEIRO: COLOCAR O DATASET NO PROJETO.
 SEGUNDO: USAR OS MÉTODOS DO PANDAS PARA LER O ARQUIVO.
 ++++++++++++
 
-•	``read_excel(“endereço do arquivo”)`` -> para ler arquivos do tipo planilha Excel.
+•	``read_excel("endereço do arquivo")`` -> para ler arquivos do tipo planilha Excel.
 
-•	``read_csv(“endereço do arquivo”)`` -> para ler arquivos do tipo csv.
+•	``read_csv("endereço do arquivo")`` -> para ler arquivos do tipo csv.
 
 •	Criar o objeto a partir do operador de atribuição -> ``=``
 
