@@ -77,7 +77,7 @@ Ela será ordenada da seguinte maneira:
 02.c.i.Acessando os itens de uma lista pelo índex
 +++++++++++
 
-Pense na lista ``nome_da_lista = [“maçã”, 2,”verde”, 4.5]``
+Pense na lista ``nome_da_lista = ["maçã", 2,"verde", 4.5]``
 
 Para acessar um item da lista através do índex fazemos desta forma:
 
