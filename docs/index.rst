@@ -1,5 +1,6 @@
-.. figure::  logo_orbe_fundo.png
-   :align:   center
+.. image:: images/logo/logo_orbe_fundo.png
+   :align: center
+   :width: 450
 
 ____________________________________________________________
 
