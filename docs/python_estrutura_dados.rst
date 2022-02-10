@@ -1,4 +1,4 @@
-ESTRUTURA DE DADOS
+Estrutura de dados
 **************************
 
 01.Introdução a estrutura de dados em Python.
