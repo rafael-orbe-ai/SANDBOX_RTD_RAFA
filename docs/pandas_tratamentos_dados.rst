@@ -43,7 +43,7 @@ Visualizando o DataFrame com o método head().
 
 .. image:: images/pandas/head_nan.png
    :align: center
-   :width: 450
+   :width: 550
 
 .. warning:: 
   Repare que os dados ausentes são representados pela sigla ``NaN`` no DataFrame.
@@ -169,7 +169,7 @@ Para realizar e salvar a alteração devemos usar ``inplace=True`` com o método
 
 .. image:: images/pandas/head_nan.png
    :align: center
-   :width: 450
+   :width: 550
 
 É muito comum usarmos os valores: **média, moda e mediana** para substituir os valores ausentes.
 
@@ -198,7 +198,7 @@ Veja um exemplo com média na coluna ``TOTAL``.
 
 .. image:: images/pandas/head_total_conta.png
    :align: center
-   :width: 450
+   :width: 550
 
 .. code-block:: python
    :linenos:   
