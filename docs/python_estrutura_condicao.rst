@@ -1,4 +1,4 @@
-ESTRUTURA DE CONDIÇÃO
+Estrutura de condição
 ********************
 
 01.Operadores de comparação
