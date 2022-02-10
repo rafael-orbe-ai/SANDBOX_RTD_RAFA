@@ -169,6 +169,8 @@ Poderíamos obter o resultado da mesma forma com o código:
 
    >>> 7 
    
+Ou simplificando mais ainda, poderíamos apenas pedir para imprimir o valor 7:
+   
 .. code-block:: python
    :linenos:
    
@@ -187,13 +189,13 @@ Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um 
 
 2. Quando se escreve ``print(4 + 3)`` o problema foi a soma de 4 e 3, se precisar mudar alguma parte desse problema, irá precisar escrever outro programa. 
 
-3. Quando se escreve ``print(7)`` não se descreve nenhum problema em si. 
+3. Quando se escreve ``print(7)`` não se descreve nenhum problema em si, portanto não existe um passo a passo para a solução de nenhum problema. 
 
 **A diferença está na clareza da representação do nosso problema**.
 
 Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos, organizados e minuciosos. 
 
-Caso ainda não tenha ficado claro, pense no seguinte programa para calcular o aumento de salário:
+Caso ainda não tenha ficado claro, veja na prática este exemplo, pense no seguinte programa para calcular o aumento de salário:
 
 .. code-block:: python
    :linenos:
