@@ -1,31 +1,32 @@
-COMPREENSÃO DOS DADOS
+Compreensão dos Dados
 *******
 
-01.O QUE É PANDAS.
+01.O que é Pandas
 =========
 
-01.a.DESCRIÇÃO SOBRE PANDAS.
+01.a.Descrição sobre Pandas
 ------
 
 •	Pandas é uma biblioteca em Python para trabalhar com dados, como por exemplo nas seguintes etapas do roteiro de um projeto de dados:
-
-.. figure::  projeto_de_dados.png
-   :align:   center
+   
+.. image:: images/pandas/projeto_de_dados.png
+   :align: center
+   :width: 450
  
-COMPREENDER OS DADOS
+Compreender os dados
 +++++++++
 
 •	Explorar
 •	Analisar
 
-PREPARAR OS DADOS PARA ALGORITMOS DE APRENDIZAGEM
+Preparar os dados para algoritmos de aprendizagem
 +++++++++
 
 •	Limpar
 •	Adequar
 
 
-01.b.IMPORTANDO O PANDAS.
+01.b.Importando o Pandas
 -------
 
 Para importarmos o Pandas para o Jupyter Notebook usamos o comando import. Como iremos escrever a palavra Pandas muitas vezes ao longo do código, é muito comum apelidarmos a biblioteca para um nome menor pd com o uso do comando as.
@@ -37,36 +38,40 @@ Como importar o Pandas para o Jupyter Notebook e apelidar de pd.
    import pandas as pd
    
 
-02.CRIANDO UM DATAFRAME A PARTIR DE UM DATASET.
+02.Criando um DataFrame a partir de um dataset
 ------
 
 Para criar um (objeto) DataFrame a partir de um dataset (conjunto de dados) precisamos seguir os seguintes passos:
 
-PRIMEIRO: COLOCAR O DATASET NO PROJETO.
+Primeiro: colocar o dataset no projeto
 ++++++++++++
 
 •	Ir em arquivos na aba lateral do Google Colaboratory.
 
-.. figure::  arquivos_colaboratory.png
-   :align:   center
+.. image:: images/pandas/arquivos_colaboratory.png
+   :align: center
+   :width: 450
 
  
 •	Arrastar o dataset para a parte de arquivos.
 
-.. figure::  arrastar_planilha.png
-   :align:   center
+.. image:: images/pandas/arrastar_planilha.png
+   :align: center
+   :width: 450
  
 •	Clicar com o botão direito em cima da planilha e depois em “copiar caminho” ou “copy path”.
 
-.. figure::  copiar_caminho.png
-   :align:   center
+.. image:: images/pandas/copiar_caminho.png
+   :align: center
+   :width: 450
  
 •	Substituir o “endereço do arquivo” pelo caminho copiado.
 
-.. figure::  copiar_caminho_resultado.png
-   :align:   center
+.. image:: images/pandas/copiar_caminho_resultado.png
+   :align: center
+   :width: 450
  
-SEGUNDO: USAR OS MÉTODOS DO PANDAS PARA LER O ARQUIVO.
+Segundo: usar os métodos do Pandas para ler o arquivo
 ++++++++++++
 
 •	``read_excel("endereço do arquivo")`` -> para ler arquivos do tipo planilha Excel.
@@ -88,14 +93,15 @@ Exemplo:
    print(df)
    
 **Este é o resultado:**
-
-.. figure::  print_df.png
-   :align:   center
+   
+.. image:: images/pandas/print_df.png
+   :align: center
+   :width: 450
  
-03.COMANDOS BÁSICOS COM O DATAFRAME.
+03.Comandos básicos com o DataFrame
 ========
 
-03.a.VISUALIZANDO O DATAFRAME.
+03.a.Visualizando o DataFrame
 -----------
 
 A forma mais comum de visualizar o DataFrame é usar o comando head() que nos mostra as primeiras linhas do DataFrame.
@@ -108,12 +114,13 @@ Exemplo:
    df.head()
    
 **Este é o resultado:**
-
-.. figure::  df_head.png
-   :align:   center
+   
+.. image:: images/pandas/df_head.png
+   :align: center
+   :width: 450
  
  
-03.b.FORMATO DO DATAFRAME.
+03.b.Formato do DataFrame
 --------
 
 Para entendermos o formato do DataFrame, ou seja, a quantidade de linhas e colunas, usamos a propriedade ``shape``.
@@ -131,12 +138,13 @@ Exemplo:
    
    >>> (23759, 9)
 
-03.c.TIPOS DE DADOS.
+03.c.Tipos de Dados
 -----------
 A nomenclatura do tipo de dado do Pandas é diferente do tipo de dado do Python:
 
-.. figure::  nomenclatura_dados.png
-   :align:   center
+.. image:: images/pandas/nomenclatura_dados.png
+   :align: center
+   :width: 450
    
 Para visualizarmos quais são os tipos de dados por coluna usamos a propriedade ``dtypes`` desta forma:
 
@@ -146,12 +154,13 @@ Para visualizarmos quais são os tipos de dados por coluna usamos a propriedade 
    df.dtypes
    
 **Este é o resultado:**
-
-.. figure::  df_dtypes.png
-   :align:   center
+   
+.. image:: images/pandas/df_dtypes.png
+   :align: center
+   :width: 450
    
    
-04.ATRIBUTOS
+04.Atributos
 =======
 
 Como vimos anteriormente, o DataFrame é organizado em linhas e colunas; as linhas para armazenar as entradas de dados e as colunas representam os atributos que descrevem as características dos dados de cada linha.
@@ -160,11 +169,12 @@ Como vimos anteriormente, o DataFrame é organizado em linhas e colunas; as linh
 -------
 
 Os atributos podem ser divididos da seguinte forma:
-
-.. figure::  tipos_atributos.png
-   :align:   center
+   
+.. image:: images/pandas/tipos_atributos.png
+   :align: center
+   :width: 450
  
-04.a.i.NUMÉRICO
+04.a.i.Numérico
 ++++++
 
 •	Pode-se executar operações matemáticas, como subtração, soma, e aplicar conceitos estatísticos como média, moda, mediana.
@@ -187,7 +197,7 @@ Os atributos podem ser divididos da seguinte forma:
 •	Exemplo: peso de um animal: 12,5 Kg.
 
 
-04.a.ii. CATEGÓRICO
+04.a.ii. Categórico
 +++++++
 
 •	``dtype: string``
@@ -203,12 +213,12 @@ Os atributos podem ser divididos da seguinte forma:
 •	Ex: sexo, cor do olho, aprovado/reprovado, etc.
 
 
-05. PRODUZINDO TABULAÇÕES.
+05. Produzindo tabulações
 =====
 
 Tabular dados é uma forma de organizarmos os dados em linhas e colunas. Para isso costuma-se utilizar dois métodos para organizar os dados: ``unique() e value_counts()``.
 
-05.a.MÉTODO ``unique( )``
+05.a.Método ``unique( )``
 -----
 
 Mostra o domínio de uma coluna do DataFrame, ou seja, todas as categorias distintas que ele assume.
@@ -229,7 +239,7 @@ Exemplo:
    >>> array([1, 0])
  
  
-05.b.MÉTODO ``value_counts()``
+05.b.Método ``value_counts()``
 ------
 
 Gera uma tabela de frequências simples para um atributo (coluna) , ou seja, conta a quantidade de vezes que um valor aparece em um atributo (coluna).
@@ -250,14 +260,15 @@ Exemplo:
    >>> 0       6374
 
 
-06. AGREGAÇÕES.
+06. Agregações
 ======
 
 Agregação é uma operação que agrega (junta) um grupo de dados para realizar contas com estatística para um grupo de linhas e colunas.
 Por exemplo, suponha que você tenha o seguinte DataFrame:
-
-.. figure::  df_vendas_head.png
-   :align:   center
+   
+.. image:: images/pandas/df_vendas_head.png
+   :align: center
+   :width: 450
  
 Para você saber qual o valor total foi vendido por bairro, você precisa fazer uma agregação, para isso usamos o método ``groupby( )``, dessa forma:
 
@@ -273,9 +284,10 @@ Para você saber qual o valor total foi vendido por bairro, você precisa fazer 
    
 
 **Este é o resultado:**
-
-.. figure::  groupby.png
-   :align:   center
+   
+.. image:: images/pandas/groupby.png
+   :align: center
+   :width: 450
  
 Dessa forma os valores:
 
@@ -284,7 +296,7 @@ Dessa forma os valores:
 2.Com o método ``sum()`` exibimos qual a somatória desses valores agregados.
 
 
-07.IDENTIFICANDO OS DADOS AUSENTES.
+07.Identificando os dados ausentes
 ====
 
 É muito importante entender quantos dados ausentes há em cada coluna.
@@ -304,8 +316,8 @@ Vejo o exemplo de como usar os comandos ``df.isnull( ).sum( )``:
 
 **Este é o resultado:**
 
-.. figure::  isnull_sum.png
-   :align:   center 
-
+.. image:: images/pandas/isnull_sum.png
+   :align: center
+   :width: 450
  
  
