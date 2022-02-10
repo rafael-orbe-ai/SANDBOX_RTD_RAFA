@@ -13,8 +13,8 @@ INTRODUÇÃO
    :align:   center
    
 .. image:: images/pandas/projeto_de_dados.png
-   :align:   center
-   :width: 500
+   :align: center
+   :width: 450
 
  
 COMPREENDER OS DADOS
