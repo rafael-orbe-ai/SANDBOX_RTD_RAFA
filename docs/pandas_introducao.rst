@@ -9,9 +9,6 @@ INTRODUÇÃO
 
 •	Pandas é uma biblioteca em Python para trabalhar com dados, como por exemplo nas seguintes etapas do roteiro de um projeto de dados:
 
-.. figure::  projeto_de_dados.png
-   :align:   center
-   
 .. image:: images/pandas/projeto_de_dados.png
    :align: center
    :width: 450
@@ -55,8 +52,9 @@ Como importar o Pandas para o Jupyter Notebook e apelidar de pd.
 02.b.ANATOMIA DE UM DATAFRAME
 -------
 
-.. figure::  anatomia_dataframe.png
-   :align:   center
+.. image:: images/pandas/anatomia_dataframe.png
+   :align: center
+   :width: 450
 
 DATASET (conjunto de dados)
 +++++++++
@@ -120,9 +118,10 @@ IMPRIMIR O DATAFRAME.
    print(df_dic)
    
 **Este é o resultado:**
-   
-.. figure::  df_dic.png
-   :align:   center
+
+.. image:: images/pandas/df_dic.png
+   :align: center
+   :width: 450
 
 
 03.b.CRIANDO UM DATAFRAME A PARTIR DE UM DATASET.
@@ -135,24 +134,27 @@ PRIMEIRO: COLOCAR O DATASET NO PROJETO.
 
 •	Ir em arquivos na aba lateral do Google Colaboratory.
 
-.. figure::  arquivos_colaboratory.png
-   :align:   center
-
+.. image:: images/pandas/arquivos_colaboratory.png
+   :align: center
+   :width: 450
  
 •	Arrastar o dataset para a parte de arquivos.
 
-.. figure::  arrastar_planilha.png
-   :align:   center
+.. image:: images/pandas/arrastar_planilha.png
+   :align: center
+   :width: 450
  
 •	Clicar com o botão direito em cima da planilha e depois em “copiar caminho” ou “copy path”.
 
-.. figure::  copiar_caminho.png
-   :align:   center
+.. image:: images/pandas/copiar_caminho.png
+   :align: center
+   :width: 450
  
 •	Substituir o “endereço do arquivo” pelo caminho copiado.
-
-.. figure::  copiar_caminho_resultado.png
-   :align:   center
+   
+.. image:: images/pandas/copiar_caminho_resultado.png
+   :align: center
+   :width: 450
  
 SEGUNDO: USAR OS MÉTODOS DO PANDAS PARA LER O ARQUIVO.
 ++++++++++++
@@ -177,8 +179,9 @@ Exemplo:
    
 **Este é o resultado:**
 
-.. figure::  print_df.png
-   :align:   center
+.. image:: images/pandas/print_df.png
+   :align: center
+   :width: 450
  
 04.COMANDOS BÁSICOS COM O DATAFRAME.
 ========
@@ -196,9 +199,10 @@ Exemplo:
    df.head()
    
 **Este é o resultado:**
-
-.. figure::  df_head.png
-   :align:   center
+   
+.. image:: images/pandas/df_head.png
+   :align: center
+   :width: 450
  
 Para visualizarmos somente os dados de uma coluna específica do DataFrame basta indicar o nome da coluna como a seguir.
 
