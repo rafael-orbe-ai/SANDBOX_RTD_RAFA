@@ -55,6 +55,15 @@ Uma variável é criada na primeira vez que um valor é armazenado nela.
 02.a.Nomenclatura de variáveis.
 ----------------
 
+Geralmente as variáveis podem ter **nomes bem curtos** como **x, y, i** ou nomes descritivos como **idade, nome, resultado**, etc.
+
+Em Python precisamos seguir algumas regras para criar nomes para as variáveis:
+
+- Nome de variáveis são *case sensitive* (ou seja, **nome** e **Nome** são duas variáveis diferentes).
+- Nome de variáveis não pode começar por um número (Ex: 2022_vendas).
+- Nome de variável tem que começar com uma letra ou sublinhado/*underscore* (Ex: **nome, _nome**).
+- Nome de variável não pode conter espaço (Ex: **nome cliente**).
+
 +------------------+--------+------------------------------------------------------------------------+
 | Nome da Variável | Válido |                               Comentários                              |
 +------------------+--------+------------------------------------------------------------------------+
@@ -78,7 +87,7 @@ Uma variável é criada na primeira vez que um valor é armazenado nela.
 02.b.Criando uma variável.
 ----------------
 
-Para criarmos uma variável usamos o símbolo de igualdade ``=`` entre o nome do compartimento e o valor que queremos armazenar. Chamaremos essa operação de atribuição, na qual um valor é atribuido a uma variável. 
+Para criarmos uma variável usamos o símbolo de igualdade ``=`` entre o nome da variável e o valor que queremos armazenar. Chamaremos essa operação de atribuição, na qual um valor é atribuido a uma variável. 
 
 Portanto em programação o símbolo de igualdade ``=`` é chamado de **operador de atribuição**.
 
@@ -101,9 +110,7 @@ No código acima:
 02.c.Observações.
 ----------------
 
-Repare que na programação, o **operador de atribuição possui uma função diferente do sinal de igual da matemática**.
-
-O sinal de **igual da matemática é chamado de operador de comparação** é escrito desta forma ``==``.
+Repare que na programação, o sinal de igual da matemática é chamado de **operador de comparação** e é escrito desta forma ``==``.
 
 Exemplo:
 
@@ -184,7 +191,9 @@ Escolhemos usar variáveis para mostrar uma grande diferença entre resolver um 
 
 **A diferença está na clareza da representação do nosso problema**.
 
-Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos, organizados e minuciosos. Caso ainda não tenha ficado claro, pense no seguinte programa para calcular o aumento de salário:
+Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos, organizados e minuciosos. 
+
+Caso ainda não tenha ficado claro, pense no seguinte programa para calcular o aumento de salário:
 
 .. code-block:: python
    :linenos:
@@ -206,12 +215,12 @@ Portanto sempre escreva seus programas de forma a que seus códigos sejam limpos
  
    >>> 1575
    
-No problema anterior, é possível alterar o valor das variáveis ``salário`` ou ``aumento`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
+No problema anterior, é possível alterar o valor das variáveis ``salario`` ou ``aumento`` sem que precise reescrever o programa inteiro, dessa forma pode-se utilizar o código para outro salário e outro aumento. 
 
 03.a.Como usar uma variável com o comando ``print()``.
 ----------------
 
-Agora que já entendemos porque utilizarmos o comando ``print( )`` com variáveis, veremos como.
+Agora que já entendemos porque utilizarmos o comando ``print( )`` com variáveis, veremos como fazer isso na prática.
 
 Para imprimirmos o valor de uma variável com o comando ``print( )``, basta adicionarmos a variável dentro dos parênteses do comando.
 
