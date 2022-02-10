@@ -15,7 +15,8 @@ INTRODUÇÃO
 .. image:: docs/images/pandas/projeto_de_dados.png
    :align: center
    :width: 400
-   
+
+![AZUL](../blob/0b3efecad0c31bc7d812277bbb810475f788e8ba/docs/images/pandas/projeto_de_dados.png)
  
 COMPREENDER OS DADOS
 +++++++++
