@@ -69,7 +69,7 @@ Primeiro: colocar o dataset no projeto
 
 .. image:: images/pandas/copiar_caminho_resultado.png
    :align: center
-   :width: 450
+   :width: 550
  
 Segundo: usar os métodos do Pandas para ler o arquivo
 ++++++++++++
