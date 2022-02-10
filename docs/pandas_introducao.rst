@@ -12,8 +12,7 @@ INTRODUÇÃO
 .. figure::  projeto_de_dados.png
    :align:   center
    
-.. image:: AZUL/docs/images/pandas/projeto_de_dados.png
-   :align: center
+.. image:: docs/images/pandas/projeto_de_dados.png
    :width: 400
 
  
