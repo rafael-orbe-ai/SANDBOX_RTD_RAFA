@@ -11,6 +11,11 @@ INTRODUÇÃO
 
 .. figure::  projeto_de_dados.png
    :align:   center
+   
+.. image:: docs/images/pandas/projeto_de_dados.png
+   :align: center
+   :width: 400
+   
  
 COMPREENDER OS DADOS
 +++++++++
