@@ -1,10 +1,10 @@
-INTRODUÇÃO
+Introdução
 *******
 
-01.O QUE É PANDAS.
+01.O que é Pandas
 =========
 
-01.a.DESCRIÇÃO SOBRE PANDAS.
+01.a.Descrição sobre Pandas
 ------
 
 •	Pandas é uma biblioteca em Python para trabalhar com dados, como por exemplo nas seguintes etapas do roteiro de um projeto de dados:
@@ -14,20 +14,20 @@ INTRODUÇÃO
    :width: 450
 
  
-COMPREENDER OS DADOS
+Compreender os dados
 +++++++++
 
 •	Explorar
 •	Analisar
 
-PREPARAR OS DADOS PARA ALGORITMOS DE APRENDIZAGEM
+Preparar os dados para algoritmos de aprendizagem
 +++++++++
 
 •	Limpar
 •	Adequar
 
 
-01.b.IMPORTANDO O PANDAS.
+01.b.Importando o Pandas
 -------
 
 Para importarmos o Pandas para o Jupyter Notebook usamos o comando import. Como iremos escrever a palavra Pandas muitas vezes ao longo do código, é muito comum apelidarmos a biblioteca para um nome menor pd com o uso do comando as.
@@ -38,10 +38,10 @@ Como importar o Pandas para o Jupyter Notebook e apelidar de pd.
    
    import pandas as pd
 
-02.DATAFRAME.
+02.DataFrame
 ====
 
-02.a.O QUE É UM DATAFRAME.
+02.a.O que é um DataFrame
 --------
 
 •	É um objeto da biblioteca Pandas.
@@ -49,7 +49,7 @@ Como importar o Pandas para o Jupyter Notebook e apelidar de pd.
 •	Traduzindo para a português DataFrame seria um “Quadro de dados”.
 
 
-02.b.ANATOMIA DE UM DATAFRAME
+02.b.Anatomia de um DataFrame
 -------
 
 .. image:: images/pandas/anatomia_dataframe.png
@@ -61,38 +61,38 @@ DATASET (conjunto de dados)
 
 •	É o conjunto de dados que compõe o DataFrame.
 
-LINHAS
+Linhas
 +++++++++
 
 •	São as linhas com os dados das respectivas colunas.
 •	Também podem ser chamada de:
 •	Entrada, instância e observação.
 
-COLUNAS
+Colunas
 +++++++++
 
 •	São as colunas com os dados das características do dataset.
 •	Também pode ser chamada de:
 •	Variáveis ou atributos.
 
-ÍNDICE
+Índice
 +++++++++
 
 •	É uma espécie de coluna criada junto com o DataFrame para indicar a posição de cada linha. Repare que o índice começa a sua contagem a partir do 0 (zero) e não a partir do 1.
 Observação: repare que em uma linha podemos ter diferentes tipos de dados, mas em uma coluna geralmente temos apenas um tipo de dado.
 
 
-03.CRIANDO UM DATAFRAME.
+03.Criando um DataFrame
 =========
 
 Basicamente há duas formas de se criar um DataFrame, uma a partir de poucos dados e outra com muitos dados.
 
-03.a.CRIANDO UM DATAFRAME COM POUCOS DADOS.
+03.a.Criando um DataFrame com poucos dados
 -------
 
 Para isso usamos o comando DataFrame( ) do Pandas, junto com os dados, para criar o objeto DataFrame. Como por exemplo usar uma estrutura de dados como o dicionário.
 
-CRIAR O DICIONÁRIO.
+Criar o dicionário
 ++++++
 
 .. code-block:: python
@@ -100,7 +100,7 @@ CRIAR O DICIONÁRIO.
    
    dados_da_corrida = {'Distância':[4,3,5,7],'Duração':[38,27,46,65]}
 
-CRIAR O DATAFRAME.
+Criar o DataFrame
 ++++++
 
 .. code-block:: python
@@ -109,7 +109,7 @@ CRIAR O DATAFRAME.
    df_dic = pd.DataFrame(dados_da_corrida)
 
 
-IMPRIMIR O DATAFRAME.
+Imprimir o DataFrame
 ++++++
 
 .. code-block:: python
@@ -124,12 +124,12 @@ IMPRIMIR O DATAFRAME.
    :width: 450
 
 
-03.b.CRIANDO UM DATAFRAME A PARTIR DE UM DATASET.
+03.b.Criando um DataFrame a partir de um dataset
 ------
 
 Para criar um (objeto) DataFrame a partir de um dataset (conjunto de dados) precisamos seguir os seguintes passos:
 
-PRIMEIRO: COLOCAR O DATASET NO PROJETO.
+Primeiro: colocar o dataset no projeto
 ++++++++++++
 
 •	Ir em arquivos na aba lateral do Google Colaboratory.
@@ -156,7 +156,7 @@ PRIMEIRO: COLOCAR O DATASET NO PROJETO.
    :align: center
    :width: 450
  
-SEGUNDO: USAR OS MÉTODOS DO PANDAS PARA LER O ARQUIVO.
+Segundo: usar os métodos do Pandas para ler o arquivo
 ++++++++++++
 
 •	``read_excel("endereço do arquivo")`` -> para ler arquivos do tipo planilha Excel.
@@ -183,10 +183,10 @@ Exemplo:
    :align: center
    :width: 450
  
-04.COMANDOS BÁSICOS COM O DATAFRAME.
+04.Comandos básicos com DataFrame
 ========
 
-04.a.VISUALIZANDO O DATAFRAME.
+04.a.Visualizando o DataFrame
 -----------
 
 A forma mais comum de visualizar o DataFrame é usar o comando head() que nos mostra as primeiras linhas do DataFrame.
@@ -251,7 +251,7 @@ Quando não há espaços entre as palavras do nome da coluna.
 | 4 | 5 |
 +---+---+ 
  
-04.b.FORMATO DO DATAFRAME.
+04.b.Formato do DataFrame
 --------
 
 Para entendermos o formato do DataFrame, ou seja, a quantidade de linhas e colunas, usamos a propriedade ``shape``.
