@@ -1,4 +1,4 @@
-TRATAMENTO DOS DADOS.
+Tratamento dos dados
 ********
 
 Limpar os dados significa arrumar dados ruins do dataset.
@@ -9,7 +9,7 @@ Os casos mais comuns são:
 •	Dados errados.
 •	Dados duplicados.
 
-01.a.IMPORTANDO O PANDAS.
+01.a.Importando o Pandas
 ===========
 
 Para importar a bibiloteca Pandas usamos o comando ``import`` e logo em seguida usamos o comando ``as`` para apelidá-la de pd.
@@ -20,7 +20,7 @@ Para importar a bibiloteca Pandas usamos o comando ``import`` e logo em seguida 
    import pandas as pd
 
  
-01.b.CRIANDO O DATAFRAME.
+01.b.Criando o DataFrame
 ========
 
 Usaremos um dataset sobre pedidos de delivery de um restaurante fictício.
@@ -41,8 +41,9 @@ Visualizando o DataFrame com o método head().
    
 **Este é o resultado:**
 
-.. figure::  head_nan.png
-   :align:   center
+.. image:: images/pandas/head_nan.png
+   :align: center
+   :width: 450
 
 .. warning:: 
   Repare que os dados ausentes são representados pela sigla ``NaN`` no DataFrame.
@@ -64,7 +65,7 @@ Entendendo o formato do DataFrame com a propriedade shape:
 
 
  
-02.IDENTIFICANDO OS DADOS AUSENTES.
+02.Identificando os dados ausentes
 =======
 
 Antes de tratar os dados ausentes vamos entender quantos dados ausentes há em cada coluna.
@@ -82,15 +83,14 @@ Vejo o exemplo de como usar os comandos ``df.isnull( ).sum( )``:
 
 **Este é o resultado:**
 
-.. figure::  isnull_sum_delivery.png
-   :align:   center 
-
-
+.. image:: images/pandas/isnull_sum_delivery.png
+   :align: center
+   :width: 450
  
-03.LIMPANDO OS DADOS AUSENTES.
+03.Limpando os dados ausentes
 ========
 
-03.a. REMOVER LINHAS COM DADOS AUSENTES.
+03.a.Remover linhas com dados ausentes
 ---------
 
 Uma das formas que temos para trabalhar com dados ausentes é remover toda a linha em que ele está. 
@@ -134,11 +134,12 @@ Por motivos de segurança, iremos primeiro realizar uma cópia do DataFrame e em
 
 **Este é o resultado:**
 
-.. figure::  novo_df_delivery.png
-   :align:   center 
 
+.. image:: images/pandas/novo_df_delivery.png
+   :align: center
+   :width: 450
  
-03.b. SUBSTITUIR DADOS AUSENTES.
+03.b.Substituir os dados ausentes
 --------
 
 **Não temos que deletar toda uma linha e perder dados:**
@@ -163,11 +164,12 @@ Para realizar e salvar a alteração devemos usar ``inplace=True`` com o método
    df.fillna(valor, inplace=True)
 
  
-03.b.I.VALORES MAIS COMUNS PARA SUBISTUIR DADOS AUSENTES.
+03.b.I.Valores mais comuns para substituir os dados ausentes
 +++++++++++++
 
-.. figure::  head_nan.png
-   :align:   center
+.. image:: images/pandas/head_nan.png
+   :align: center
+   :width: 450
 
 É muito comum usarmos os valores: **média, moda e mediana** para substituir os valores ausentes.
 
@@ -194,9 +196,9 @@ Veja um exemplo com média na coluna ``TOTAL``.
 
 **Este é o resultado:**
 
-.. figure::  head_total_conta.png
-   :align:   center 
-
+.. image:: images/pandas/head_total_conta.png
+   :align: center
+   :width: 450
 
 .. code-block:: python
    :linenos:   
@@ -206,9 +208,10 @@ Veja um exemplo com média na coluna ``TOTAL``.
    
 **Este é o resultado:**
 
-.. figure::  isnull_sum_total_conta.png
-   :align:   center 
- 
+.. image:: images/pandas/isnull_sum_total_conta.png
+   :align: center
+   :width: 450
+
 Veja um exemplo da moda na coluna ``CIDADE``
 +++++++
 
@@ -236,9 +239,9 @@ Veja um exemplo da moda na coluna ``CIDADE``
 
 **Este é o resultado:**
 
-.. figure::  head_cidade.png
-   :align:   center 
-
+.. image:: images/pandas/head_cidade.png
+   :align: center
+   :width: 450
 
 .. code-block:: python
    :linenos:   
@@ -248,18 +251,18 @@ Veja um exemplo da moda na coluna ``CIDADE``
    
 **Este é o resultado:**
 
-.. figure::  isnull_sum_cidade.png
-   :align:   center 
+.. image:: images/pandas/isnull_sum_cidade.png
+   :align: center
+   :width: 450
  
- 
-04. DADOS EM FORMATAÇÃO ERRADA.
+04.Dados em formatação errada
 ========
 
 Considere o seguinte DataFrame:
 
-.. figure::  df_formatacao.png
-   :align:   center 
- 
+.. image:: images/pandas/df_formatacao.png
+   :align: center
+   :width: 450
  
 Repare que temos alguns erros comuns presentes no DataFrame:
 
@@ -270,7 +273,7 @@ Repare que temos alguns erros comuns presentes no DataFrame:
 •	A ``linha 7`` está com FF ao invés de F.
 
 
-04.b.DATA COM FORMATO ERRADO
+04.b.Data com formato errado
 --------------
 
 Para corrigir o dado da linha 3 para o formato correto vamos converter toda a coluna para o formato data — **Ano/Mês/Dia** — 0000/00/00.
@@ -291,16 +294,16 @@ Para usá-lo vamos acessar a coluna ``DATA_VENDA`` e então usamos o método ``t
    
 **Este é o resultado:**
 
-.. figure::  df_formatacao_datetime.png
-   :align:   center 
-
+.. image:: images/pandas/df_formatacao_datetime.png
+   :align: center
+   :width: 450
 
 .. note::
   
   A data do DataFrame precisa ser uma string e estar no formato americano por isso Ano/Mês/Dia para o método ``to_datetime()`` funcionar.
 
  
-04.c.LINHAS DUPLICADAS
+04.c.Linhas duplicadas
 ---------------
 
 Para descobrir quais linhas estão duplicadas em um DataFrame usamos o método:
@@ -315,9 +318,9 @@ Ele irá gerar um dado tipo ``booleano`` para cada linha, mostrando:
 •	``True`` para as linhas duplicadas.
 •	``False`` para as linhas não duplicadas.
 
-.. figure::  df_formatacao_duplicated.png
-   :align:   center
-
+.. image:: images/pandas/df_formatacao_duplicated.png
+   :align: center
+   :width: 450
 
 Para corrigirmos a linha 5 que está duplicada vamos exclui-lá.
 Para isso usamos o método:
@@ -331,11 +334,11 @@ Nesse método pedimos ao pandas excluir todas as linhas que deram o resultado ``
 
 **Este é o resultado:**
 
-.. figure::  df_formatacao_duplicated_resultado.png
-   :align:   center 
+.. image:: images/pandas/df_formatacao_duplicated_resultado.png
+   :align: center
+   :width: 450
 
- 
-4.d.DADO COM FORMATO ERRADO
+4.d.Dado com formato errado
 ---------------
 
 Para corrigirmos o dado da linha 7 vamos substituir o valor ``FF`` por ``F``. 
@@ -365,7 +368,7 @@ Exemplo:
 
 **Este é o resultado:**
 
-.. figure::  df_formatacao_loc_resultado.png
-   :align:   center
    
-   
+.. image:: images/pandas/df_formatacao_loc_resultado.png
+   :align: center
+   :width: 450   
