@@ -54,7 +54,7 @@ Como importar o Pandas para o Jupyter Notebook e apelidar de pd.
 
 .. image:: images/pandas/anatomia_dataframe.png
    :align: center
-   :width: 450
+   :width: 600
 
 DATASET (conjunto de dados)
 +++++++++
@@ -202,7 +202,7 @@ Exemplo:
    
 .. image:: images/pandas/df_head.png
    :align: center
-   :width: 450
+   :width: 600
  
 Para visualizarmos somente os dados de uma coluna específica do DataFrame basta indicar o nome da coluna como a seguir.
 
