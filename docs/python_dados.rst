@@ -1,5 +1,5 @@
 
-DADOS
+Dados
 *************
 
 01. Tipos de dados
@@ -189,7 +189,7 @@ Veja o exemplo para criar uma variável armazenando o dado recebido através do 
    :linenos:
    
    #Captando dados com o comando input()
-   idade = inpput("Insira sua idade: ")
+   idade = input("Insira sua idade: ")
    
 **Este é o resultado:**
    
@@ -225,7 +225,7 @@ Caso seja necessário transformar o tipo de dado fornecido pelo comando ``input(
    :linenos:
    
    #Captando dados com o comando input() e transformando em int.
-   idade = int(inpput("Insira sua idade: "))
+   idade = int(input("Insira sua idade: "))
  
 .. code-block:: python
    :linenos:
