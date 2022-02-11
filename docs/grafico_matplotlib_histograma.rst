@@ -70,7 +70,7 @@ Para este grpafico usaremos uma base de dados ("olist_order_payments_dataset.xls
 
 .. image:: images/grafico/head_oilist.png
    :align: center
-   :width: 550
+   :width: 650
 
 .. code-block:: python
    :linenos:
