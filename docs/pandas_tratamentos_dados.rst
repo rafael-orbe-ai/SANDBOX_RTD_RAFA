@@ -43,7 +43,7 @@ Visualizando o DataFrame com o método head().
 
 .. image:: images/pandas/head_nan.png
    :align: center
-   :width: 550
+   :width: 650
 
 .. warning:: 
   Repare que os dados ausentes são representados pela sigla ``NaN`` no DataFrame.
@@ -85,7 +85,7 @@ Vejo o exemplo de como usar os comandos ``df.isnull( ).sum( )``:
 
 .. image:: images/pandas/isnull_sum_delivery.png
    :align: center
-   :width: 450
+   :width: 350
  
 03.Limpando os dados ausentes
 ========
@@ -137,7 +137,7 @@ Por motivos de segurança, iremos primeiro realizar uma cópia do DataFrame e em
 
 .. image:: images/pandas/novo_df_delivery.png
    :align: center
-   :width: 450
+   :width: 350
  
 03.b.Substituir os dados ausentes
 --------
@@ -169,7 +169,7 @@ Para realizar e salvar a alteração devemos usar ``inplace=True`` com o método
 
 .. image:: images/pandas/head_nan.png
    :align: center
-   :width: 550
+   :width: 650
 
 É muito comum usarmos os valores: **média, moda e mediana** para substituir os valores ausentes.
 
@@ -198,7 +198,7 @@ Veja um exemplo com média na coluna ``TOTAL``.
 
 .. image:: images/pandas/head_total_conta.png
    :align: center
-   :width: 550
+   :width: 650
 
 .. code-block:: python
    :linenos:   
@@ -210,7 +210,7 @@ Veja um exemplo com média na coluna ``TOTAL``.
 
 .. image:: images/pandas/isnull_sum_total_conta.png
    :align: center
-   :width: 450
+   :width: 350
 
 Veja um exemplo da moda na coluna ``CIDADE``
 +++++++
@@ -241,7 +241,7 @@ Veja um exemplo da moda na coluna ``CIDADE``
 
 .. image:: images/pandas/head_cidade.png
    :align: center
-   :width: 450
+   :width: 650
 
 .. code-block:: python
    :linenos:   
@@ -253,7 +253,7 @@ Veja um exemplo da moda na coluna ``CIDADE``
 
 .. image:: images/pandas/isnull_sum_cidade.png
    :align: center
-   :width: 450
+   :width: 350
  
 04.Dados em formatação errada
 ========
@@ -262,7 +262,7 @@ Considere o seguinte DataFrame:
 
 .. image:: images/pandas/df_formatacao.png
    :align: center
-   :width: 450
+   :width: 350
  
 Repare que temos alguns erros comuns presentes no DataFrame:
 
@@ -296,7 +296,7 @@ Para usá-lo vamos acessar a coluna ``DATA_VENDA`` e então usamos o método ``t
 
 .. image:: images/pandas/df_formatacao_datetime.png
    :align: center
-   :width: 450
+   :width: 250
 
 .. note::
   
@@ -320,7 +320,7 @@ Ele irá gerar um dado tipo ``booleano`` para cada linha, mostrando:
 
 .. image:: images/pandas/df_formatacao_duplicated.png
    :align: center
-   :width: 450
+   :width: 250
 
 Para corrigirmos a linha 5 que está duplicada vamos exclui-lá.
 Para isso usamos o método:
@@ -336,7 +336,7 @@ Nesse método pedimos ao pandas excluir todas as linhas que deram o resultado ``
 
 .. image:: images/pandas/df_formatacao_duplicated_resultado.png
    :align: center
-   :width: 450
+   :width: 350
 
 4.d.Dado com formato errado
 ---------------
