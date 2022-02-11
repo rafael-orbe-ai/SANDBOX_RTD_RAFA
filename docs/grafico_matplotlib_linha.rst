@@ -10,7 +10,7 @@ Geralmente tempo, que fica no eixo X (eixo horizontal).
 
 .. image:: images/grafico/grafico_linha.png
    :align: center
-   :width: 550
+   :width: 650
  
 02.Preparando os dados
 =======
@@ -55,7 +55,7 @@ Criaremos o objeto DataFrame a partir de um dataset de os valores das ações na
 
 .. image:: images/grafico/tipos_dados.png
    :align: center
-   :width: 550
+   :width: 350
    
 Entendendo que tipo de dado é a variável que indica tempo (neste caso a variável “Date”). Para isso usamos o comando ``dtypes`` desta forma:
 
@@ -71,7 +71,7 @@ Entendendo que tipo de dado é a variável que indica tempo (neste caso a variá
 
 .. image:: images/grafico/df_vale_dtypes.png
    :align: center
-   :width: 550
+   :width: 350
  
 02.c.i.Alterando o tipo de dado da variável de tempo para datetime
 --------
@@ -99,7 +99,7 @@ Para isso usamos o comando ``.to_datetime()`` desta forma:
 
 .. image:: images/grafico/df_vale_dtypes_datetime.png
    :align: center
-   :width: 550
+   :width: 350
  
 02.c.ii.Tornando a variável de tempo o índice do DataFrame
 ------
