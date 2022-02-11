@@ -27,3 +27,15 @@ Conteúdos
    pandas_introducao
    pandas_compreensao_dados
    pandas_tratamentos_dados
+
+
+.. toctree::
+   :caption: GRAFICOS
+   :maxdepth: 1
+
+   grafico_matplotlib_introducao
+   grafico_matplotlib_linha
+   grafico_matplotlib_barra
+   grafico_matplotlib_histograma
+   grafico_matplotlib_boxplot
+   grafico_folium_grafico_geografico
