@@ -117,7 +117,7 @@ Exemplo:
    
 .. image:: images/pandas/df_head.png
    :align: center
-   :width: 450
+   :width: 650
  
  
 03.b.Formato do DataFrame
@@ -157,7 +157,7 @@ Para visualizarmos quais são os tipos de dados por coluna usamos a propriedade 
    
 .. image:: images/pandas/df_dtypes.png
    :align: center
-   :width: 450
+   :width: 350
    
    
 04.Atributos
@@ -268,7 +268,7 @@ Por exemplo, suponha que você tenha o seguinte DataFrame:
    
 .. image:: images/pandas/df_vendas_head.png
    :align: center
-   :width: 450
+   :width: 350
  
 Para você saber qual o valor total foi vendido por bairro, você precisa fazer uma agregação, para isso usamos o método ``groupby( )``, dessa forma:
 
@@ -287,7 +287,7 @@ Para você saber qual o valor total foi vendido por bairro, você precisa fazer 
    
 .. image:: images/pandas/groupby.png
    :align: center
-   :width: 450
+   :width: 350
  
 Dessa forma os valores:
 
@@ -318,6 +318,6 @@ Vejo o exemplo de como usar os comandos ``df.isnull( ).sum( )``:
 
 .. image:: images/pandas/isnull_sum.png
    :align: center
-   :width: 450
+   :width: 350
  
  
