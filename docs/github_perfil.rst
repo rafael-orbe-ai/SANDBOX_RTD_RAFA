@@ -46,7 +46,7 @@ Para isso precisamos criar um **README.md** file
 
 **3.** Crie um repositório **Com seu nome de perfil**, clique em **Add a README file** e clique em **Create repository**
 
-.. image:: images/github/create_repository.png
+.. image:: images/github/new_repositories.png
    :align: center
    :width: 450
 
