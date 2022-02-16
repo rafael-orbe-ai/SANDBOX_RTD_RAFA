@@ -79,19 +79,19 @@ No canto superior direito, ao clicar no ícone redondo, clique em **Your profile
 
 .. image:: images/github/your_profile.png
    :align: center
-   :width: 550
+   :width: 350
 
 Nesta página é possível ver sua foto de perfil, quais repositórios (pastas) você tem, seus projetos, etc.
 
 .. image:: images/github/your_profile_2.png
    :align: center
-   :width: 550
+   :width: 350
 
 Clique em **Contribution settings** e clique em cima de **Private contributions**, quando está opção está ligada, sua atividade fica registrada, mesmo que você trabalhe em um projeto privado. 
 
 .. image:: images/github/contribuition_settings.png
    :align: center
-   :width: 550
+   :width: 350
 
 Uma mensagem escrito **Visitors will now see your public and anonymized private contributions** irá aparecer.
 
