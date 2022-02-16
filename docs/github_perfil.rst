@@ -10,7 +10,7 @@ Para personalizar o seu perfil pelo menos com o básico, podemos colocar foto de
 
 .. image:: images/github/settings.png
    :align: center
-   :width: 250
+   :width: 200
 
 **2.** Aqui já podemos alterar algumas informações como foto de perfil, nome, colocar uma bio.
 
@@ -167,10 +167,10 @@ Após realizar as alterações desejadas em seu arquivo **README.md** file, cliq
 
 .. image:: images/github/commit_changes.png
    :align: center
-   :width: 450
+   :width: 550
    
 Este será o resultado:
 
 .. image:: images/github/perfil_personalizado.png
    :align: center
-   :width: 450
+   :width: 550
