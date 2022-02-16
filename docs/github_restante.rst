@@ -19,7 +19,7 @@ Para criar pastas/diretórios:
    :width: 400
 
 
-3.Escolha o nome do seu repositório, selecione Add a README file e clique em **Create repository**.
+3.Escolha o nome do seu repositório, selecione **Add a README** file e clique em **Create repository**.
 
 .. image:: images/github/create_repositories.png
    :align: center
