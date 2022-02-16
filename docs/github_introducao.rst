@@ -39,19 +39,19 @@ Para criar uma conta no Github, siga o passo a passo:
 
 **1.** Acessar o site github.com
 
-**2.** Clique em ***Sign up for GitHub***.
+**2.** Clique em **Sign up for GitHub**.
 
 .. image:: images/github/sign_git_hub.png
    :align: center
    :width: 350
 
-**3.** Preencha os dados, ***e-mail, password, username*** e clique em ***continue***.
+**3.** Preencha os dados, **e-mail, password, username** e clique em **Continue**.
 
 .. image:: images/github/criando_usuario.png
    :align: center
    :width: 350
 
-**4.** Após preencher os dados, clique em ***Start puzzle*** para realizar uma verificação de conta. depois clique em ***Create account***.
+**4.** Após preencher os dados, clique em **Start puzzle** para realizar uma verificação de conta. depois clique em **Create account**.
 
 .. image:: images/github/start_puzzle.png
    :align: center
@@ -59,7 +59,7 @@ Para criar uma conta no Github, siga o passo a passo:
 
 **5.** Você irá receber um e-mail com o código de verificação, basta inserir o código.
 
-**6.** Abrirá uma tela de Welcome to GitHUb, clique em ***Skip personalization***.
+**6.** Abrirá uma tela de Welcome to GitHUb, clique em **Skip personalization**.
 
 .. image:: images/github/skip_personalization.png
    :align: center
@@ -75,7 +75,7 @@ Para criar uma conta no Github, siga o passo a passo:
 04.Acessando o seu perfil
 ====
 
-No canto superior direito, ao clicar no ícone redondo, clique em ***Your profile***.
+No canto superior direito, ao clicar no ícone redondo, clique em **Your profile**.
 
 .. image:: images/github/your_profile.png
    :align: center
@@ -87,11 +87,11 @@ Nesta página é possível ver sua foto de perfil, quais repositórios (pastas) 
    :align: center
    :width: 550
 
-Clique em ***Contribution settings*** e clique em cima de ***Private contributions***, quando está opção está ligada, sua atividade fica registrada, mesmo que você trabalhe em um projeto privado. 
+Clique em **Contribution settings** e clique em cima de **Private contributions**, quando está opção está ligada, sua atividade fica registrada, mesmo que você trabalhe em um projeto privado. 
 
 .. image:: images/github/contribuition_settings.png
    :align: center
    :width: 550
 
-Uma mensagem escrito ***Visitors will now see your public and anonymized private contributions*** irá aparecer.
+Uma mensagem escrito **Visitors will now see your public and anonymized private contributions** irá aparecer.
 
