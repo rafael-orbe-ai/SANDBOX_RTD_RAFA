@@ -40,7 +40,7 @@ Para isso precisamos criar um **README.md** file
 
 **2.** Clique em **New**
 
-.. image:: images/github/new_repositories.png
+.. image:: images/github/new_repositories_2.png
    :align: center
    :width: 450
 
