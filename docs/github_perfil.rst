@@ -67,7 +67,7 @@ Uma ferramenta muito interessante é a **GitHub Stats** onde exibe estrelas ganh
    :align: center
    :width: 450
 
-Para colocar esta ferramenta no seu GitHub cole o código abaixo no seu README.md file, tenha certeza de alterar o **NOME_DO_USUARIO_AQUI** pelo seu nome de usuário no GitHub
+Para colocar esta ferramenta no seu GitHub cole o código abaixo no seu **README.md file**, tenha certeza de alterar o **NOME_DO_USUARIO_AQUI** pelo seu nome de usuário no GitHub
 
 .. code-block:: python
    :linenos:
@@ -82,7 +82,7 @@ Para colocar esta ferramenta no seu GitHub cole o código abaixo no seu README.m
 03.b.Redes Sociais
 ----
 
-Podemos utilizar o README.md file para adicionar diversos links estilizados para redes sociais, por exemplo:
+Podemos utilizar o **README.md** file para adicionar diversos links estilizados para redes sociais, por exemplo:
 
 * **Whatsapp**
 
