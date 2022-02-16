@@ -156,17 +156,20 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
   <a href="https://www.linkedin.com/in/SEU_LINKEDIN_AQUI/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 
 
+04.Finalizando a personalização
+====
+
 Desta forma será possível criar um perfil personalizado que chame a atenção quando as pessoas entrarem.
 
 Você também pode colocar uma apresentação pessoal bem bacana.
 
-Após realizar as alterações desejadas em seu arquivo README.md file, clique em **Commit changes** para enviar essas alterações e ter seu perfil personalizado
+Após realizar as alterações desejadas em seu arquivo **README.md** file, clique em **Commit changes** para enviar essas alterações e ter seu perfil personalizado
 
 .. image:: images/github/commit_changes.png
    :align: center
    :width: 450
    
-Este será o resultado
+Este será o resultado:
 
 .. image:: images/github/perfil_personalizado.png
    :align: center
