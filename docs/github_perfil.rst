@@ -10,19 +10,19 @@ Para personalizar o seu perfil pelo menos com o básico, podemos colocar foto de
 
 .. image:: images/github/settings.png
    :align: center
-   :width: 350
+   :width: 250
 
 **2.** Aqui já podemos alterar algumas informações como foto de perfil, nome, colocar uma bio.
 
 .. image:: images/github/profile_settings.png
    :align: center
-   :width: 350
+   :width: 450
 
 **3.** Após realizar as alterações desejadas, clique em **Update profile**
 
 .. image:: images/github/update_profile.png
    :align: center
-   :width: 350
+   :width: 450
 
 Uma vez com a conta criada, podemos personalizar o perfil para exibir diversas informações, como:
 
@@ -36,19 +36,19 @@ Para isso precisamos criar um **README.md** file
 
 .. image:: images/github/repositories.png
    :align: center
-   :width: 350
+   :width: 450
 
 **2.** Clique em **New**
 
 .. image:: images/github/new_repositories.png
    :align: center
-   :width: 350
+   :width: 450
 
 **3.** Crie um repositório **Com seu nome de perfil**, clique em **Add a README file** e clique em **Create repository**
 
 .. image:: images/github/create_repository.png
    :align: center
-   :width: 350
+   :width: 450
 
 Este repositório com seu nome de perfil é **especial**, este é uma pasta onde você pode adicionar este **README.md** file e personalizar seu GitHub!
 
