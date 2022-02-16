@@ -1,7 +1,7 @@
 Introdução
 ****
 
-.. image:: images/git_hub/GitHub-Logo.png
+.. image:: images/github/GitHub-Logo.png
    :align: center
    :width: 450
    
