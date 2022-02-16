@@ -1,0 +1,54 @@
+Personalizando seu perfil
+****
+
+01.Como personalizar seu perfil
+====
+
+Para personalizar o seu perfil pelo menos com o básico, podemos colocar foto de perfil e uma apresentação simples. para isso:
+
+**1.** No canto superior direito clique em **Settings**
+
+.. image:: images/github/settings.png
+   :align: center
+   :width: 350
+
+**2.** Aqui já podemos alterar algumas informações como foto de perfil, nome, colocar uma bio.
+
+.. image:: images/github/profile_settings.png
+   :align: center
+   :width: 350
+
+**3.** Após realizar as alterações desejadas, clique em **Update profile**
+
+.. image:: images/github/update_profile.png
+   :align: center
+   :width: 350
+
+Uma vez com a conta criada, podemos personalizar o perfil para exibir diversas informações, como:
+
+Email, linkedin, outras redes sociais, linguagens de programação mais usadas, entre outros.
+Para isso precisamos criar um **README.md** file
+
+02.Criando um README.md file
+====
+
+**1.** Clique em **Repositories**
+
+.. image:: images/github/repositories.png
+   :align: center
+   :width: 350
+
+**2.** Clique em **New**
+
+.. image:: images/github/new_repositories.png
+   :align: center
+   :width: 350
+
+**3.** Crie um repositório **Com seu nome de perfil**, clique em **Add a README file** e clique em **Create repository**
+
+.. image:: images/github/create_repository.png
+   :align: center
+   :width: 350
+
+Este repositório com seu nome de perfil é **especial**, este é uma pasta onde você pode adicionar este **README.md** file e personalizar seu GitHub!
+
