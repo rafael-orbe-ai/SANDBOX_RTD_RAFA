@@ -84,7 +84,8 @@ Para colocar esta ferramenta no seu GitHub cole o código abaixo no seu **README
 
 Podemos utilizar o **README.md** file para adicionar diversos links estilizados para redes sociais, por exemplo:
 
-* **Whatsapp**
+03.b.I.Whatsapp
+++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_NUMERO_AQUI** para o seu número, com código do país e DD, por exemplo, 5511981859166.
 
@@ -99,7 +100,7 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
    Caso o número esteja errado ou não tenha o código do país/DD ele irá dar como impossível de localizar este contato.
    
    
-03.b.I.Gmail
+03.b.II.Gmail
 ++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_EMAIL_AQUI** para o seu endereço de e-mail.
@@ -108,7 +109,7 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
 
    <a href="SEU_EMAIL_AQUI" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
-03.b.II.Instagram
+03.b.III.Instagram
 ++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_INSTAGRAM_AQUI** para o seu Instagram.
@@ -117,7 +118,7 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
 
   <a href="https://www.instagram.com/SEU_INSTAGRAM_AQUI/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
 
-03.b.III.Facebook
+03.b.IV.Facebook
 ++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_FACEBOOK_AQUI** para o seu Facebook.
@@ -126,7 +127,7 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
 
   <a href="https://www.facebook.com/SEU_FACEBOOK_AQUI" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a>
 
-03.b.IV.Twitter
+03.b.V.Twitter
 ++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_TWITTER_AQUI** para o seu Twitter.
@@ -136,7 +137,7 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
   <a href="https://twitter.com/SEU_TWITTER_AQUI" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
 
 
-03.b.V.Youtube
+03.b.VI.Youtube
 ++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_CANAL_YOUTUBE_AQUI** para o link do seu canal do Youtube.
@@ -146,7 +147,7 @@ Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está 
   <a href="SEU_CANAL_YOUTUBE_AQUI" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
 
 
-03.b.VI.Linkedin
+03.b.VII.Linkedin
 ++++
 
 Para adicionar em seu perfil, basta colar o código abaixo e alterar onde está **SEU_LINKEDIN_AQUI** para o seu Linkedin.
