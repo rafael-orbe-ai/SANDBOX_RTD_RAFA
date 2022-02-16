@@ -52,3 +52,24 @@ Para isso precisamos criar um **README.md** file
 
 Este repositório com seu nome de perfil é **especial**, este é uma pasta onde você pode adicionar este **README.md** file e personalizar seu GitHub!
 
+
+03.Personalizando seu README.md
+====
+
+Existem diversas formas de personalizar seu **README.md** file.
+
+03.a.GitHub Stats
+----
+
+Uma ferramenta muito interessante é a **GitHub Stats** onde exibe estrelas ganhas, quantos códigos você já criou, problemas resolvidos e contribuições e linguagem mais utilizada.
+
+Para colocar esta ferramenta no seu GitHub cole o código abaixo no seu README.md file, tenha certeza de alterar o **NOME_DO_USUARIO_AQUI** pelo seu nome de usuário no GitHub
+
+.. code-block:: python
+   :linenos:
+   
+   <div align="center">
+   <a href="https://github.com/NOME_DO_USUARIO_AQUI">
+   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=NOME_DO_USUARIO_AQUI&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NOME_DO_USUARIO_AQUI&layout=compact&langs_count=7&theme=dark"/>
+   </div>
