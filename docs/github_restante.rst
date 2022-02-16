@@ -10,7 +10,7 @@ Para criar pastas/diretórios:
 
 .. image:: images/github/repositories.png
    :align: center
-   :width: 350
+   :width: 450
 
 2.Clique em **New** 
 
@@ -34,13 +34,13 @@ Para sincronizar o GitHub com o Google Colaboratory:
 
 .. image:: images/github/file.png
    :align: center
-   :width: 350
+   :width: 450
 
 2.Clique em **Save a copy in GitHub**.
 
 .. image:: images/github/save_copy_github.png
    :align: center
-   :width: 350
+   :width: 200
 
 3.Uma página irá abrir, clique em **Authorize googlecolab**.
 
@@ -52,6 +52,6 @@ Para sincronizar o GitHub com o Google Colaboratory:
 
 .. image:: images/github/ok_google.png
    :align: center
-   :width: 350
+   :width: 450
 
 5.Pronto, você já sincronizou o GitHub com o Google Colaboratory.
