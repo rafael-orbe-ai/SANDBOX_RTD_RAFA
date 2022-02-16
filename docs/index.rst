@@ -39,3 +39,11 @@ Conteúdos
    grafico_matplotlib_histograma
    grafico_matplotlib_boxplot
    grafico_folium_grafico_geografico
+   
+.. toctree::
+   :caption: GITHUB
+   :maxdepth: 1
+
+   github_introducao
+   github_perfil
+   github_restante
