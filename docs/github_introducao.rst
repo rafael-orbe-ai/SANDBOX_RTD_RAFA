@@ -3,7 +3,7 @@ Introdução
 
 .. image:: images/github/Logo.png
    :align: center
-   :width: 450
+   :width: 550
    
 01.O que é GitHub
 ====
