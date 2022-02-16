@@ -18,7 +18,7 @@ Com isso, já podemos ter uma ideia de que a plataforma **GitHub** é um espaço
 
 
 02.O que o GitHub oferece para os seus usuários
-===
+====
 
 
 **1.** Repositório de textos, com isso podemos criar diversos códigos e programas.  
