@@ -37,39 +37,39 @@ Com isso, já podemos ter uma ideia de que a plataforma **GitHub** é um espaço
 
 Para criar uma conta no Github, siga o passo a passo:
 
-1.Acessar o site github.com
+**1.**Acessar o site github.com
 
-2.Clique em ***Sign up for GitHub***.
+**2.**Clique em ***Sign up for GitHub***.
 
 .. image:: images/github/sign_git_hub.png
    :align: center
-   :width: 550
+   :width: 350
 
-3. Preencha os dados, ***e-mail, password, username*** e clique em ***continue***.
+**3.**Preencha os dados, ***e-mail, password, username*** e clique em ***continue***.
 
 .. image:: images/github/criando_usuario.png
    :align: center
-   :width: 550
+   :width: 350
 
-4. Após preencher os dados, clique em ***Start puzzle*** para realizar uma verificação de conta. depois clique em ***Create account***.
+**4.**Após preencher os dados, clique em ***Start puzzle*** para realizar uma verificação de conta. depois clique em ***Create account***.
 
 .. image:: images/github/start_puzzle.png
    :align: center
-   :width: 550
+   :width: 350
 
-5.Você irá receber um e-mail com o código de verificação, basta inserir o código.
+**5.**Você irá receber um e-mail com o código de verificação, basta inserir o código.
 
-6.Abrirá uma tela de Welcome to GitHUb, clique em ***Skip personalization***.
+**6.**Abrirá uma tela de Welcome to GitHUb, clique em ***Skip personalization***.
 
 .. image:: images/github/skip_personalization.png
    :align: center
-   :width: 550
+   :width: 350
 
-7.Pronto, sua conta está criada.
+**7.**Pronto, sua conta está criada.
 
 .. image:: images/github/conta_criada.png
    :align: center
-   :width: 550
+   :width: 350
    
 
 04.Acessando o seu perfil
