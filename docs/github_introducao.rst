@@ -25,7 +25,7 @@ Com isso, já podemos ter uma ideia de que a plataforma **GitHub** é um espaço
 
 **2.** É uma plataforma open source, ou seja, de código aberto, portanto muitas aplicações, quase todas, são gratuitas.
 
-**3.** É dividio através de *branches*, ou seja, galhos, cada versão nova de um arquivo é considerado um "galho" do arquivo original.
+**3.** É dividido através de *branches*, ou seja, galhos, cada versão nova de um arquivo é considerado um "galho" do arquivo original.
 
 **4.** É uma excelente rede social, desde a compra do Github pela Microsoft, muitas pessoas tem usado a plataforma para se conectar com outros desenvolvedores, trocar códigos e criar projetos open source.
 
