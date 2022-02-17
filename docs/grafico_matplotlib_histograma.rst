@@ -30,7 +30,7 @@ Quantos produtos custam entre:
 
 •	901–1.000 reais
 
-.. image:: images/grafico/grafico_histograma.png
+.. image:: images/grafico/grafico_histogramah.png
    :align: center
    :width: 550
    
@@ -125,7 +125,7 @@ Para este grpafico usaremos uma base de dados ("olist_order_payments_dataset.xls
 
 **Este é o resultado:**
 
-.. image:: images/grafico/grafico_histograma.png
+.. image:: images/grafico/grafico_histogramah.png
    :align: center
    :width: 550
 
