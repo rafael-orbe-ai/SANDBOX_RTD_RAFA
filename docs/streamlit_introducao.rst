@@ -101,6 +101,7 @@ Caso queira conhecer mais as ferramentas e funcionalidades do Streamlit, veja os
 - Como fazer cada um dos elementos que compõe um site: 
     - https://docs.streamlit.io/en/stable/api.html#display-interactive-widgets
 
+
 - Resumo de todos os comandos: 
     - https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py
 
