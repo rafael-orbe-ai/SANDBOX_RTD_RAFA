@@ -47,3 +47,10 @@ Conteúdos
    github_introducao
    github_perfil
    github_restante
+
+.. toctree::
+   :caption: STREAMLIT
+   :maxdepth: 1
+   
+   streamlit_introducao.rst
+   streamlit_teachable.rst
