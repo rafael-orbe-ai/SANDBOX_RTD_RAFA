@@ -26,14 +26,14 @@ Teachable Machine e Streamlit
 
 .. image:: images/streamlit/get_started.png
    :align: center
-   :width: 550
+   :width: 350
 
 
 3.Em NOVO PROJETO selecione a opção **Projeto de imagem.** (*image project*).
 
 .. image:: images/streamlit/image_project.png
    :align: center
-   :width: 550
+   :width: 450
 
 
 4.Selecione a opção **modelo de imagem padrão** (*Stardard image model*).
@@ -59,7 +59,7 @@ Teachable Machine e Streamlit
 
 .. image:: images/streamlit/export_model.png
    :align: center
-   :width: 550
+   :width: 250
 
 .. image:: images/streamlit/tensorflow.png
    :align: center
@@ -74,7 +74,7 @@ Teachable Machine e Streamlit
 
 .. image:: images/streamlit/export_jupyter.png
    :align: center
-   :width: 550
+   :width: 450
 
 
 .. warning:: 
@@ -318,13 +318,13 @@ E aqui está nosso aplicativo com classificação de imagens:
 
 .. image:: images/streamlit/teachable_app.png
    :align: center
-   :width: 550
+   :width: 350
 
 
 Caso a gente rode com outra classe:
 
 .. image:: images/streamlit/teachable_app_2.png
    :align: center
-   :width: 550
+   :width: 350
 
 
