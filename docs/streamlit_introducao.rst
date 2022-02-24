@@ -98,9 +98,11 @@ Introdução
 
 Caso queira conhecer mais as ferramentas e funcionalidades do Streamlit, veja os links a seguir:
 
-- Como fazer cada um dos elementos que compõe um site: https://docs.streamlit.io/en/stable/api.html#display-interactive-widgets
+- Como fazer cada um dos elementos que compõe um site: 
+    - https://docs.streamlit.io/en/stable/api.html#display-interactive-widgets
 
-- Resumo de todos os comandos: https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py
+- Resumo de todos os comandos: 
+    - https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py
 
 
 Vamos mais adiante em nosso exemplo e desenvolver o nosso primeiro aplicativo:
