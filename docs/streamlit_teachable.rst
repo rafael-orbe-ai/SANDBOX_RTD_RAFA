@@ -19,7 +19,7 @@ Teachable Machine e Streamlit
 - Para treinar e obter o modelo de classificação, vamos usar o site do *Teachable Machine* e realizar os seguintes passos:
 
 
-1.Entre no site do Teachable Machine:https://teachablemachine.withgoogle.com
+1.Entre no site do Teachable Machine: https://teachablemachine.withgoogle.com
 
 
 2.Clique no botão **começar** (*get started*).
