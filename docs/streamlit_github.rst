@@ -13,7 +13,7 @@ Para criar uma conta no Streamlit basta seguir o paasso a passo:
 
 02.Clicar em "Continue with GitHub" 
 
-.. image:: images/streamlit/continue_github.png
+.. image:: images/streamlit/continue_githubb.png
    :align: center
    :width: 350
 
