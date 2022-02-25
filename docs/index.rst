@@ -54,3 +54,4 @@ Conteúdos
    
    streamlit_introducao.rst
    streamlit_teachable.rst
+   streamlit_github.rst
