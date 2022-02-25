@@ -15,27 +15,27 @@ Para criar uma conta no Streamlit basta seguir o paasso a passo:
 
 .. image:: images/streamlit/continue_github.png
    :align: center
-   :width: 550
+   :width: 250
 
 
 03.Clicar em Authrorize Streamlit
 
 .. image:: images/streamlit/authorize_streamlit.png
    :align: center
-   :width: 550
+   :width: 250
 
 04.Escolha o plano **Community**
 
 .. image:: images/streamlit/community.png
    :align: center
-   :width: 550
+   :width: 350
 
 
 05.Insira seus dados pessoais e clique em **Continue**
 
 .. image:: images/streamlit/continue_dados.png
    :align: center
-   :width: 550
+   :width: 250
 
 06.Pronto! Você já pode lançar seus aplicativos agora
 
@@ -280,38 +280,38 @@ Para isso:
 
 .. image:: images/streamlit/authorize_streamlit_2.png
    :align: center
-   :width: 550
+   :width: 250
 
 03.Na parte de **Repository** selecione o repositório do seu aplicativo
 
 .. image:: images/streamlit/repository.png
    :align: center
-   :width: 550
+   :width: 450
 
 04.Em **Branch** selecione qual versão deseja, em nosso caso **main**
 
 .. image:: images/streamlit/branch.png
    :align: center
-   :width: 550
+   :width: 450
 
 05.Em **Main file path** selecione onde está o arquivo que o streamlit irá ler, o nosso *front-end*, em nosso caso é o **arquivo_aplicativo_de_classificacao.py**
 
 .. image:: images/streamlit/main_path_file.png
    :align: center
-   :width: 550
+   :width: 450
 
 
 06.Clique em **Deploy!**
 
 .. image:: images/streamlit/deploy.png
    :align: center
-   :width: 550
+   :width: 450
 
 07.Espere enquanto seu aplicativo "está no forno" (pode levar alguns minutos) 
 
 .. image:: images/streamlit/oven_app.png
    :align: center
-   :width: 550
+   :width: 250
 
 Pronto!! Seu aplicativo já está pronto e inclusive **este link é compartilhavel e não cai, funciona 24/7!** 
 
