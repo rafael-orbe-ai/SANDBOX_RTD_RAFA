@@ -15,14 +15,14 @@ Para criar uma conta no Streamlit basta seguir o paasso a passo:
 
 .. image:: images/streamlit/continue_github.png
    :align: center
-   :width: 250
+   :width: 350
 
 
 03.Clicar em Authrorize Streamlit
 
 .. image:: images/streamlit/authorize_streamlit.png
    :align: center
-   :width: 250
+   :width: 350
 
 04.Escolha o plano **Community**
 
@@ -280,7 +280,7 @@ Para isso:
 
 .. image:: images/streamlit/authorize_streamlit_2.png
    :align: center
-   :width: 250
+   :width: 350
 
 03.Na parte de **Repository** selecione o repositório do seu aplicativo
 
@@ -311,7 +311,7 @@ Para isso:
 
 .. image:: images/streamlit/oven_app.png
    :align: center
-   :width: 250
+   :width: 350
 
 Pronto!! Seu aplicativo já está pronto e inclusive **este link é compartilhavel e não cai, funciona 24/7!** 
 
