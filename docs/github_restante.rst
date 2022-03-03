@@ -65,14 +65,14 @@ Isso permite com que sejam criados versões diferentes para testar soluções de
 
 .. image:: images/github/branch.png
    :align: center
-   :width: 350
+   :width: 550
 
 
 Para criar um novo Branch de seu projeto é muito simples, basta na hora de salvar a alteração desejada clicar em **Create a new branch for this commit and start a pull request**. Depois só escolher o nome desejado desse novo branch e clicar em **Propose changes**
 
 .. image:: images/github/new_branch.png
    :align: center
-   :width: 350
+   :width: 550
    
 05.Como buscar códigos e clonar repositórios
 ====
@@ -86,7 +86,7 @@ Para pesquisar códigos, repositórios entre outros é só clicar no canto super
 
 .. image:: images/github/search.png
    :align: center
-   :width: 350
+   :width: 550
 
 Depois só digitar o conteúdo de interesse. Nesse momento você terá três opções: 
 
@@ -94,25 +94,25 @@ Depois só digitar o conteúdo de interesse. Nesse momento você terá três op�
 
 .. image:: images/github/search_repository.png
    :align: center
-   :width: 350
+   :width: 550
 
 2. *In this user* - Este comando busca o termo escolhido em todo o seu usuário, ou seja, facilita muito na hora de encontrar algum arquivo/repositório desejado
 
 .. image:: images/github/search_user.png
    :align: center
-   :width: 350
+   :width: 550
 
 3. *All GitHub* - Este botão irá pesquisar o termo desejado em todo o GitHub, é uma ferramenta realmente muito útil na hora de pesquisar novos repositórios, bibliotecas, usuários, etc.
 
 .. image:: images/github/search_github.png
    :align: center
-   :width: 350
+   :width: 550
 
 Após pesquisar o termo escolhido em todo o GitHub, você irá para uma página cheia de informações sobre a pesquisa, como por exemplo as linguagens mais usadas, a quantidade de repositórios, a quantidade de linhas de códigos, fórum, etc.
 
 .. image:: images/github/search_github2.png
    :align: center
-   :width: 350
+   :width: 450
 
 Essa ferramenta de busca é fundamental na hora de **clonar repositórios**.
 
@@ -129,25 +129,25 @@ Para não passar por um problema desse uma solução muito simples é clonar o r
 
 .. image:: images/github/clonar_repositorio.png
    :align: center
-   :width: 350
+   :width: 450
 
 2. Vá em seus repositórios e clique em **New**.
 
 .. image:: images/github/clonar_repositorio2.png
    :align: center
-   :width: 350
+   :width: 550
 
 3. Clique em **Import a repository**.
 
 .. image:: images/github/clonar_repositorio3.png
    :align: center
-   :width: 350
+   :width: 450
 
 4. Coloque o link copiado do outro repositório, escolha um nome e clique em **Begin import**.
 
 .. image:: images/github/clonar_repositorio4.png
    :align: center
-   :width: 350
+   :width: 450
 
 .. warning::
 
