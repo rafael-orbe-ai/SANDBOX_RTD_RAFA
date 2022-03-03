@@ -60,5 +60,5 @@ Orbe.AI - material de referência
    :caption: MACHINE LEARNING
    :maxdepth: 1
    
-   treinamento_modelo.rst
-   aprendizado_supervisionado.rst
+   ml_treinamento_modelo.rst
+   ml_aprendizado_supervisionado.rst
