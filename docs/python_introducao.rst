@@ -289,6 +289,7 @@ Por exemplo:
    
    #01.Marcador de posição vazio
    print("Meu nome é {} e eu tenho {} anos".format(primeiro_nome, idade)) 
+   
 
 
 **Este é o resultado:** 
@@ -333,3 +334,23 @@ ________________________________________________________________________________
 .. code-block:: python
 
    >>> Meu nome é Rafael e eu tenho 33 anos
+
+
+03.b.II.Método f-Strings
+++++
+
+``f-Strings`` é um novo método criado na versão 3.6 do Python para substituir o método ``format()``.
+
+Ele funciona como o método ``format()`` porém com uma sintaxe abreviada e permite operações mais complexas.
+
+Exemplo:
+
+.. code-block:: python
+   :linenos:
+
+   #Criando uma variável chamada idade e outra chamada nome
+   nome = "Rafael" 
+   idade = 33
+
+   #Utilizando o método f ao invés do format
+  print(f"Meu nome é {nome} e eu tenho {idade} anos.") 
