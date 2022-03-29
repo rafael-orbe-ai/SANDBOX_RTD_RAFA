@@ -62,3 +62,22 @@ Orbe.AI - material de referência
    
    ml_treinamento_modelo.rst
    ml_aprendizado_supervisionado.rst
+   
+.. toctree::
+   :caption: RPA
+   :maxdepth: 1
+ 
+   rpa_introducao.rst
+   rpa_ambiente.rst
+   rpa_fluxo_trabalho.rst
+   rpa_pyautogui.rst
+   
+   
+.. toctree::
+   :caption: WEB SCRAPING
+   :maxdepth: 1
+   
+   web_scrap_introducao.rst
+   web_scrap_html.rst
+   web_scrap_pratica.rst
+
